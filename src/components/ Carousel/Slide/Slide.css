@@ -1,0 +1,35 @@
+
+.container_slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgba(177, 177, 177, 0.6);
+}
+
+.slide_flag {
+    width: 70px;
+}
+
+.slide_coutry {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #787878;
+}
+
+.slide_day {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.slide_month {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #787878;
+}

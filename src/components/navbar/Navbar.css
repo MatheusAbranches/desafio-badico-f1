@@ -1,0 +1,39 @@
+nav {
+  background-color: #fa1e01;
+  padding: 20px 80px  ;
+  margin-bottom: 80px;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: auto;
+
+}
+
+.nav_link {
+  min-width: 300px;
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.link {
+  background-color: transparent;
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.link:focus {
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
