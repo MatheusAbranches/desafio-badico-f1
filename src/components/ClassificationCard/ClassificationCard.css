@@ -1,0 +1,175 @@
+.container_card_classification {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1120px;
+  margin: auto;
+  position: relative;
+  top: -110px;
+  z-index: 1;
+}
+
+.pilot_classification_left {
+  background-color: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 323px;
+  height: 208px;
+  top: -50px;
+  z-index: 1;
+}
+
+.pilot_classification_center {
+  background-color: #ffffff;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 419px;
+  height: 231px;
+  top: -50px;
+  z-index: 1;
+}
+
+.img_verstappen {
+  position: relative;
+  top: -120px;
+  width: 343px;
+  height: 343px;
+  margin-left: 75px;
+}
+
+.img_perez {
+  position: relative;
+  width: 308px;
+  height: 308px;
+  left: 6px;
+  top: -110px;
+}
+
+.content_country_classification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 323px;
+  height: 106px;
+  background-color: #38383e;
+  border-radius: 0px 0px 15px 15px;
+  position: relative;
+  top: -110px;
+  padding: 4px 0px 6px 0px;
+  gap: 10px;
+  
+}
+
+.content_country_classification_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 419px;
+  height: 106px;
+  background: #38383e;
+  border-radius: 0px 0px 15px 15px;
+  position: relative;
+  top: -120px;
+  padding: 4px 0px 6px 0px;
+  gap: 10px;
+}
+
+.pilot_name {
+  margin-top: 10px;
+}
+
+.container_card_classification span {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 15px 10px 24px;
+}
+
+.container_card_classification p {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  padding: 4px 0px 10px 24px;
+  margin: 0;
+}
+
+.rectangle_card_blue1,
+.rectangle_card_blue2,
+.rectangle_card_red1,
+.rectangle_card_red2,
+.rectangle_card_red3 {
+  position: absolute;
+  width: 15px;
+  height: 40px;
+  top: 34px;
+  z-index: 999;
+}
+
+.rectangle_card_blue1 {
+  left: 40px;
+  background: #4570c0;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.rectangle_card_blue2 {
+  left: 24px;
+  background: #4570c0;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.rectangle_card_red1 {
+  left: 22px;
+  background: #fa1e01;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.rectangle_card_red2 {
+  left: 38px;
+  background: #fa1e01;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.rectangle_card_red3 {
+  left: 54px;
+  background: #fa1e01;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.tarja_pilot_blue{
+  position: absolute;
+  width: 323px;
+  height: 14px;
+  left: 0px;
+  top: 185px;
+  background: #4570c0;  
+  z-index: -1;
+}
+
+.tarja_pilot_red {
+  position: absolute;
+  width: 323px;
+  height: 14px;
+  left: 0px;
+  top: 185px;
+  background: #fa1e01;
+  z-index: -1;  
+}
+
+.tarja_pilot_blue_center {
+  position: absolute;
+  width: 419px;
+  height: 14px;
+  left: 0px;
+  top: 209px;
+  background: #4570c0;
+  z-index: -1;
+}

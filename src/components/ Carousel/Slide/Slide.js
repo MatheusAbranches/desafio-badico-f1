@@ -1,16 +1,16 @@
 import React from "react";
 import "./Slide.css";
 
-import FlagBahrain from "../../../img/flags/bahrain.png";
-
-const Slide = () => {
+const Slide = ({placeCalender,
+  dayCalender,
+  monthCalender, src,}) => {
   return (
     <section className='section'>
       <div className='container_slide'> 
-        <img className='slide_flag' src={FlagBahrain} alt="" />
-        <h4 className='slide_coutry' >BAHRAIN</h4>
-        <span className='slide_day'>10</span>
-        <p className='slide_month'>APR</p>
+        <img className='slide_flag' src={src} alt="" />
+        <h4 className='slide_coutry' >{placeCalender}</h4>
+        <span className='slide_day'>{dayCalender < 10 ? `0${dayCalender}` : dayCalender }</span>
+        <p className='slide_month'>{monthCalender}</p>
       </div>
     </section>
   );

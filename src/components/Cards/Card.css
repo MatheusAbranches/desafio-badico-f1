@@ -14,7 +14,7 @@
   color: #EA3323;
   position: absolute;
   top: -18px;
-  background-color: #fff;
+  background-color: #DDDDDD;
   width: 100px;
   font-family: "Titillium Web";
   font-style: normal;
@@ -28,6 +28,7 @@
   justify-content: space-between;
   align-items: center;
   padding-right: 8px;
+  padding-top: 20px;
 }
 
 .date_day {
@@ -123,10 +124,10 @@
   align-items: center;
   width: 100%;
   height: 20%;
-  background-color: #fff;
+  background-color: #DDDDDD;
   border-radius: 0 0 18px 0;
-  border-bottom: 0.5px solid #dddddd;
-  border-right: 0.5px solid #dddddd;
+  border-bottom: 0.5px solid #a5a5a5;
+  border-right: 0.5px solid #a5a5a5;
 }
 
 #pilot_center {

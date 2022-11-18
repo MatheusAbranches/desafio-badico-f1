@@ -12,12 +12,10 @@ function App() {
     <div>
       <BrowserRouter>
       <Navbar />
-        <div>
           <Routes>
             <Route path="/" element={<Timeline />} />
             <Route path="/classification" element={<Classification />} />
           </Routes>
-        </div>
         <Footer />  
       </BrowserRouter>
     </div>

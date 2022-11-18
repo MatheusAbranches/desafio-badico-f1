@@ -1,0 +1,34 @@
+.main{
+  min-height: 110vh;
+}
+
+
+.container_title {
+ max-width: 100%;
+  height: 357px;
+  position: relative;
+
+  background: linear-gradient(
+    90deg,
+    #2a2a35 1.02%,
+    #505063 51.48%,
+    #2a2a35 100%
+  );
+}
+
+.title_classification {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  color: #f3f3f3;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.vector {
+  width: 100%;
+  height: 135px;
+  position: absolute;
+  bottom: 0;
+}

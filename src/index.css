@@ -2,5 +2,10 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  background-color: #DDDDDD
 }
 
+h1, h2, h3, p, span {
+  margin: 0;
+  padding: 0;
+}

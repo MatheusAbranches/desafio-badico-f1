@@ -1,0 +1,82 @@
+.container_bar {
+  width: 1105px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background: #ffffff;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.6);
+}
+
+.content_position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  height: 37px;
+}
+
+.position_name {
+  height: 36px;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.name_pilot {
+  height: 37px;
+  font-family: "Titillium Web";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.pilot_team {
+  height: 21px;
+  font-family: "Titillium Web";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #b1b1b1;
+}
+
+/* .rectangle_red {
+    width: 4px;
+    height: 14px;
+    background: #e5373f;
+  }
+   */
+.position_rectangle_blue {
+  width: 5px;
+  height: 19px;
+  background: #4570c0;
+}
+
+.content_points {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 94px;
+  height: 33px;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 10px;
+    width: 70px;
+    background: #ededec;
+    border-radius: 50px;
+}

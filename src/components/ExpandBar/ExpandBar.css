@@ -1,0 +1,42 @@
+.container_expand_bar {
+  display: flex;
+  flex-direction: row;
+  height: 310px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.6);
+}
+
+.content_pilots_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 14px;
+  gap: 10px;
+  width: 649px;
+  height: 310px;
+}
+
+.pilot_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 585px;
+  height: 37px;
+}
+.pilot_info_option {
+  height: 37px;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.pilot_info_result {
+  height: 30px;
+  font-family: "Titillium Web";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6f6f6f;
+}

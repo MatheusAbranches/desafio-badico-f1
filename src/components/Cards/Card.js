@@ -1,7 +1,6 @@
 import React from "react";
 import "./Card.css";
 
-import FlagBahrain from "../../img/flags/bahrain.png";
 import SpeedFlag from "../../img/speed_flag.png";
 
 import ChevronRight from "../../img/chevron_right.png";
@@ -10,25 +9,40 @@ import MiniSergioPerez from "../../img/pilots/mini_Sergio_Perez.png";
 import MiniMaxVerstappen from "../../img/pilots/mini_Max_Verstappen.png";
 import MiniCharlesLeclerc from "../../img/pilots/mini_Charles_Leclerc.png";
 
-const Card = () => {
+const Card = ({
+  roundValue = 1,
+  src,
+  istesting,
+  startDateRound,
+  finishDateRound,
+  monthRound,
+  placeRound,
+  descriptionRound,
+  ...props
+}) => {
+  console.log("props ============>", props);
+  
   return (
     <div className="container_card">
-      <div className="card_title">ROUND 1</div>
+      <div className="card_title">ROUND {roundValue}</div>
       <div className="date_comtainer">
         <div className="date_content">
-          <h3 className="date_day">20 - 22</h3>
-          <img className="country_flag" src={FlagBahrain} alt="" />
+          <h3 className="date_day">
+            {startDateRound < 10 ? `0${startDateRound}` : startDateRound} -{" "}
+            {finishDateRound < 10 ? `0${finishDateRound}` : finishDateRound}
+          </h3>
+          <img className="country_flag" src={src} alt="" />
         </div>
         <div className="month_content">
-          <span className="month_date">MAY</span>
+          <span className="month_date">{monthRound}</span>
           <img className="speed_flag" src={SpeedFlag} alt="" />
         </div>
       </div>
       <div className="place_description_card">
-        <span className="place">Spain</span>
+        <span className="place">{placeRound}</span>
         <img className="chevron" src={ChevronRight} alt="" />
         <p className="description_card">
-          FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2022
+        {descriptionRound}
         </p>
       </div>
       <div className="container_pilots_card">
