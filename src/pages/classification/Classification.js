@@ -38,7 +38,7 @@ const Classification = () => {
           <ExpandBar
             src={ExpandMax}
             team={"RedBull Racing"}
-            Countryc={"Netherlands"}
+            Country={"Netherlands"}
             podiuns={75}
             points={1948.5}
             GrandPix={160}
